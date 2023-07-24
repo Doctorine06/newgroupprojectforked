@@ -4,9 +4,29 @@ import { Link } from "react-router-dom";
 
 export const Createstory = () => {
   const { store, actions } = useContext(Context);
+  const handleClick = (e) => {
+    e.preventDefault();
+    actions.login(email, password);
+  };
 
   return (
     <div className="container">
+      <nav className="navbar navbar-light bg-light">
+        <div className="container">
+          <Link to="/searchthebookclub">
+            <span className="navbar-brand mb-0 h1">"Home"</span>
+          </Link>
+
+          <Link to="/auth/search/thebookclub">
+            <span className="navbar-brand mb-0 h1">"Look It Up"</span>
+          </Link>
+          <div className="ml-auto">
+            <Link to="/thebookclub">
+              <button onClick={(e) => handleClick(e)}>Open</button>
+            </Link>
+          </div>
+        </div>
+      </nav>
       <ul className="list-group">
         {store.demo.map((item, index) => {
           return (
@@ -17,6 +37,9 @@ export const Createstory = () => {
             >
               <Link to="/publishmystory">
                 <span>Link to: "publish" </span>
+                <span>
+                  Open<b>spell</b>test
+                </span>
               </Link>
               {
                 // Conditional render example
@@ -33,6 +56,7 @@ export const Createstory = () => {
               >
                 Publish
               </button>
+              <button onClick={(e) => handleClick(e)}>Open</button>
             </li>
           );
         })}

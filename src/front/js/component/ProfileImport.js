@@ -14,7 +14,7 @@ const Profile = () => {
       store.token !== "" &&
       store.token !== undefined
     ) {
-      useNavigate("/thebookclub");
+      useNavigate("/thebookclubfavorites/thebookclub");
     }
   }, [store.token]);
 

@@ -17,7 +17,7 @@ const Login = () => {
   // useEffect(() => {
   console.log(store.token);
   if (token && token != "" && token != undefined) {
-  navigate("/thebookclub");
+  navigate("/searchthebookclub");
   // }
   // Authentincate 
   // if (auth === true || auth === defined || auth === "") {

@@ -51,16 +51,17 @@ export const Navbar = () => {
                   </span>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/Createstory/thebookclubfavorites/thebookclub">
-                  <p>Pushing Tags</p>
-                </Link>
-                <Link to="/Createstory/thebookclubfavorites/thebookclub">
+              <li
+                className="nav-item"
+                a
+                href="https://www.youtube.com/watch?v=ZrxCRySeHNE"
+              >
+                <Link to="/createStory">
                   <span className="nav-link">Discover Your Palabra</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/auth/search_..%thebookclub/home">
+                <Link to="/auth/searchthebookclub/home">
                   <span className="nav-link">Search</span>
                 </Link>
               </li>
@@ -70,7 +71,7 @@ export const Navbar = () => {
                     <span className="nav-link">Login</span>
                   </Link>
                 ) : (
-                  <Link to="/">
+                  <Link to="/logout">
                     <span onClick={() => actions.logut()} className="nav-link">
                       Log out
                     </span>

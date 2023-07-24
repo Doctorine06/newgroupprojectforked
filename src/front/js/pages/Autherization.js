@@ -4,6 +4,11 @@ import "../../styles/home.css";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import React, { useContext, useState } from "react";
+import { Context } from "../store/appContext";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 const Authorization = () => {
   const handleClick = (e) => {
     e.preventDefault();
@@ -18,7 +23,7 @@ const Authorization = () => {
       store.token !== "" &&
       store.token !== undefined
     ) {
-      navigate("/thebookclub");
+      navigate("/auth/thebookclub");
     }
   }, [store.token]);
   return (
@@ -30,9 +35,8 @@ const Authorization = () => {
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">This. Is Imagination. :flag-jm:</p>
           <Link to="/thebookclubfavorites">
-            <button onClick={(e) => handleClick(e)}>
+            <button onClick={(e) => handleClick(e)} class="btn btn-primary">
               Write Yours to match mine! :flag-us:,:flag-jm:, :flag-us:
-              <img src="https://i.imgur.com/KFp3ilV.jpeg" />
             </button>
           </Link>
         </div>

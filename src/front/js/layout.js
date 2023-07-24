@@ -16,7 +16,7 @@ import Search from "./pages/Search";
 import Algolia from "./pages/Algolia";
 import Autherization from "./pages/Autherization";
 import Publish from "./pages/PublishYours";
-
+import ProfileImport from "./component/ProfileImport";
 //In the console it said sign up on line 26 was undefined bc it was Not imported in the file
 //create your first component
 const Layout = () => {
@@ -32,7 +32,7 @@ const Layout = () => {
           <Routes>
             <Route element={<Home />} path="/" />
             <Route element={<Home />} path="/thebookclubfavorites" />
-            <Route element={<Profile />} path="/publishmystory" />
+            <Route element={<ProfileImport />} path="/publishmystory" />
             <Route element={<Login />} path="/login" />
             <Route element={<Register />} path="/createUser" />
             <Route element={<Createstory />} path="/Createstory" />

@@ -51,11 +51,10 @@ export const Navbar = () => {
                   </span>
                 </Link>
               </li>
-              <li
-                className="nav-item"
-                a
-                href="https://www.youtube.com/watch?v=ZrxCRySeHNE"
-              >
+              <li className="nav-item">
+                <a href="https://www.youtube.com/watch?v=ZrxCRySeHNE">
+                  <p>Pushing Tags</p>
+                </a>
                 <Link to="/createStory">
                   <span className="nav-link">Discover Your Palabra</span>
                 </Link>

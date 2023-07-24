@@ -53,6 +53,10 @@ const Search = () => {
         <input placeholder="Reloj" size="100px;"></input>
         <button ocClick={(e) => handleClick(e)}>Buscandos</button>
       </Link>
+
+      <div container="flexbox">
+        <img src="https://i.imgur.com/KFp3ilV.jpeg" />
+      </div>
     </div>
   );
 };

@@ -34,8 +34,11 @@ const Layout = () => {
             <Route element={<ProfileImport />} path="/publishmystory" />
             <Route element={<Login />} path="/login" />
             <Route element={<Register />} path="/createUser" />
-            <Route element={<Createstory />} path="/Createstory/thebookclubfavorites/thebookclub" />
-            <Route element={<Search />} path="/auth/search_..%thebookclub/home" />
+            <Route
+              element={<Createstory />}
+              path="/Createstory/thebookclubfavorites/thebookclub"
+            />
+            <Route element={<Search />} path="/auth/searchthebookclub/home" />
             <Route element={<Single />} path="/single/:theid" />
 
             <Route

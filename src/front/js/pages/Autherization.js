@@ -4,11 +4,7 @@ import "../../styles/home.css";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import React, { useContext, useState } from "react";
-import { Context } from "../store/appContext";
-import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
+
 const Authorization = () => {
   const handleClick = (e) => {
     e.preventDefault();
@@ -47,6 +43,7 @@ const Authorization = () => {
             <span className="navbar-brand mb-0 h1">"Home"</span>
           </Link>
           <div className="ml-auto">
+          <i class="fa-solid fa-book"></i>
             <Link to="/searchthebook">
               <button className="btn btn-primary">Search</button>
             </Link>

@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Context } from "../store/appContext";
+import "../../styles/home.css";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 const Authorization = () => {
   const handleClick = (e) => {
     e.preventDefault();
-    actions.register( email, password);
+    actions.register(email, password);
   };
   const { store, actions } = useContext(Context);
   let navigate = useNavigate();

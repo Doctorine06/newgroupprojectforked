@@ -55,12 +55,12 @@ export const Navbar = () => {
                 <Link to="/Createstory/thebookclubfavorites/thebookclub">
                   <p>Pushing Tags</p>
                 </Link>
-                <Link to="/createStory">
+                <Link to="/Createstory/thebookclubfavorites/thebookclub">
                   <span className="nav-link">Discover Your Palabra</span>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/auth/searchthebookclub/home">
+                <Link to="/auth/search_..%thebookclub/home">
                   <span className="nav-link">Search</span>
                 </Link>
               </li>

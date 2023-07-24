@@ -52,9 +52,9 @@ export const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a href="https://www.youtube.com/watch?v=ZrxCRySeHNE">
+                <Link to="/Createstory/thebookclubfavorites/thebookclub">
                   <p>Pushing Tags</p>
-                </a>
+                </Link>
                 <Link to="/createStory">
                   <span className="nav-link">Discover Your Palabra</span>
                 </Link>

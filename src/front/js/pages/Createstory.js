@@ -17,11 +17,11 @@ export const Createstory = () => {
             <span className="navbar-brand mb-0 h1">"Home"</span>
           </Link>
 
-          <Link to="/auth/search/thebookclub">
+          <Link to="/auth/search_..%thebookclub/home">
             <span className="navbar-brand mb-0 h1">"Look It Up"</span>
           </Link>
           <div className="ml-auto">
-            <Link to="/thebookclub">
+            <Link to="/auth/thebookclub">
               <button onClick={(e) => handleClick(e)}>Open</button>
             </Link>
           </div>

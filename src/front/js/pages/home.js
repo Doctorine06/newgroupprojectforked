@@ -50,14 +50,7 @@ I could not help laughing at the ease with which he explained his process of ded
 
 “How many? I don’t know.”
 
-“Quite so! You have not observed. And yet you have seen, ‘That is just my point. Now, I know that there are seventeen steps, because I have both seen and observed. Bythe-way, since you are interested in these little problems, and since you are good enough to chronicle one or two of my trifling experiences, you may be interested in this.” He threw over a sheet of thick, pink-tinted note-paper which had been lying open upon the table. “It came by the last post,’ said he. “ Read it aloud.”
-
-The note was undated, and without either signature or address.
-
-“There will call upon you to-night, at a quarter to eight o'clock,” it said, “‘a gentleman who desires to consult you upon a matter of the very deepest moment. Your recent services to one of the royal houses of Europe have shown that you are one who may safely be trusted with matters which are of an importance which can hardly be exaggerated. This account of you we have from all quarters received. Be in
-
-
-        "
+"
           size="125"
           cols="25"
           rows="25"
@@ -68,6 +61,9 @@ The note was undated, and without either signature or address.
             src="https://ia802607.us.archive.org/BookReader/BookReaderImages.php?zip=/4/items/adventuresofsher00doylrich/adventuresofsher00doylrich_jp2.zip&file=adventuresofsher00doylrich_jp2/adventuresofsher00doylrich_0001.jp2&id=adventuresofsher00doylrich&scale=4&rotate=0"
           />
         </a>
+        <p>Tag Open Here</p>
+        <input size="250;"></input>
+        <hr size="10"></hr>
       </div>
     </div>
   );

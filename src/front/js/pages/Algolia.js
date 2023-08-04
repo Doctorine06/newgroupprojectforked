@@ -1,11 +1,10 @@
-import react from react;
+// import react from react;
 
-const 4GeeksMIA 
+// const 4GeeksMIA
 
-let folder = open
+// let folder = open
 
+// if =
 
-if =
-
-if ===
-then open folder 
+// if ===
+// then open folder

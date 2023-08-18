@@ -149,7 +149,6 @@ const Authorization = () => {
           </form>
         </ol>
       </div>
-
       <hr></hr>
       <Link to="/auth/search/thebookclub">
         <button className="button">
@@ -158,7 +157,8 @@ const Authorization = () => {
         </button>
       </Link>
       <hr></hr>
-      <p>Tag a layout</p>
+      <p>Tag a layout</p> 
+      <img src="https://i.imgur.com/0cczI3C.jpeg"></img>
       <br></br>
     </div>
   );

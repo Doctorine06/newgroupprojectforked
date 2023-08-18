@@ -62,7 +62,9 @@ const Demo = () => {
           <a href="https://archive.org/details/adventuresofsher00doylrich/page/n15/mode/2up?ref=ol&view=theater">
             <img src="https://i.imgur.com/KFp3ilV.jpeg" />
           </a>
-
+          <li>auth/search/thebookclub</li>
+          <img src="https://i.imgur.com/0cczI3C.jpeg" id="circle" />
+          {" To add a side by side text attribute"}
           <form class="was-validated">
             <div class="mb-3">
               <label for="validationTextarea" class="form-label">

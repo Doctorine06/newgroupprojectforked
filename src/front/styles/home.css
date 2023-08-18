@@ -4,12 +4,16 @@
 .colores {
   color: red;
 }
+#circle {
+  width: 150px;
+  height: 150px;
+}
 .Watson2 {
   color: chocolate;
   font-size: 67px;
   background-color: blanchedalmond;
 }
-.SherlockyWatson{
+.SherlockyWatson {
   background-color: rgba(212, 130, 147, 0.643);
   border: #101010;
 }

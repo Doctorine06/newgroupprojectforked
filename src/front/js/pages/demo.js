@@ -63,7 +63,9 @@ const Demo = () => {
             <img src="https://i.imgur.com/KFp3ilV.jpeg" />
           </a>
           <li>auth/search/thebookclub</li>
-          <img src="https://i.imgur.com/0cczI3C.jpeg" id="circle" />
+          <Link to="/starttheexclusivereads">
+            <img src="https://i.imgur.com/0cczI3C.jpeg" id="circle" />
+          </Link>
           {" To add a side by side text attribute"}
           <form class="was-validated">
             <div class="mb-3">

@@ -46,6 +46,8 @@ const Counter = () => {
           <div className="SherlockHolmes">
             <input placeholder="Reloj" size="115;"></input>
             <button>
+              {" "}
+              <Clock sec={seconds} />, document.querySelector("#clock")
               <i class="fa-sharp fa-light fa-user-clock fa-shake"></i>Start The
               Clock
             </button>

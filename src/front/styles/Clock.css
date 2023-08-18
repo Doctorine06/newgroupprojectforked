@@ -8,8 +8,11 @@
     color: white;
     padding: 10px;
 }
-
+.clock{font-size: medium;}
 .bigCounter{
     display: inline-block;
     text-align: center;
+}
+.fa-solid fa-user-clock fa-shake{
+    font-size: 200px;
 }

@@ -2,14 +2,25 @@ import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import { Link } from "react-router-dom";
 import "../../styles/home.css";
-const Search = () => {
+import "../../styles/Clock.css";
+const Counter = () => {
   const { store, actions } = useContext(Context);
   const [bookTitle, setBookTitle] = useState("");
   const [name, setName] = useState("");
   const handleClick = (e) => {
     e.preventDefault();
     actions.search(name, bookTitle);
+    let seconds = 0;
+
+    setInterval(() => {
+      seconds++;
+      ReactDOM.render(
+        <Clock sec={seconds} />,
+        document.querySelector("#clock")
+      );
+    });
   };
+
   return (
     <div>
       <div class="text-center">
@@ -19,7 +30,7 @@ const Search = () => {
               <span className="navbar-brand mb-0 h1">"Home"</span>
             </Link>
             <Link to="/auth/searchingthebookclub/home">
-              <span className="navbar-brand mb-0 h1">"Look It Up"</span>
+              <span className="clock">"Look It Up"</span>
             </Link>
 
             <Link to="/auth/search/thebookclub/home">
@@ -34,14 +45,12 @@ const Search = () => {
           <hr></hr>
           <div className="SherlockHolmes">
             <input placeholder="Reloj" size="115;"></input>
-            <Link to="/starttheexclusivereads">
-              <button>
-                <i class="fa-sharp fa-light fa-user-clock fa-shake"></i>Start
-                The Clock
-              </button>
-              {" scanvenger hunt clock"}
-            </Link>
+            <button>
+              <i class="fa-sharp fa-light fa-user-clock fa-shake"></i>Start The
+              Clock
+            </button>
             <p>About ME</p>
+
             <p>
               Entusiasta sustantivo
               <p className="sherlock">
@@ -67,7 +76,6 @@ const Search = () => {
               ></iframe>
             </li>
             <hr />
-
             <p>In the "About me section"</p>
             <li>
               <iframe
@@ -78,17 +86,7 @@ const Search = () => {
                 allowfullscreen
               ></iframe>
             </li>
-            <hr />
-            <li>
-              <iframe
-                width="560"
-                height="202"
-                src="https://www.bandlab.com/embed/?id=0c397c8a-f22a-ee11-a9bb-000d3a41e8b8"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
-            </li>
-            <hr />
+            <hr />{" "}
             <li>
               <div className="SherlockyWatson">
                 <iframe
@@ -100,6 +98,16 @@ const Search = () => {
                 ></iframe>
               </div>
             </li>
+            <hr />
+            <li>
+              <iframe
+                width="560"
+                height="202"
+                src="https://www.bandlab.com/embed/?id=0c397c8a-f22a-ee11-a9bb-000d3a41e8b8"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </li>
           </ol>{" "}
         </div>
         <hr />
@@ -110,4 +118,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default Counter;

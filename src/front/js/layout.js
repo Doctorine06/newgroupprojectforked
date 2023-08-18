@@ -22,6 +22,7 @@ import { NavbarStretch } from "./component/Translator";
 import { Jumbotron1 } from "./component/Jumbotron1";
 import { Jumbotron2 } from "./component/Jumbotron2";
 import { LogoutJumbotron } from "./component/Jumbotron3";
+import Counter from "./pages/Counter";
 import { ProfileImport } from "./component/ProfileImport";
 //In the console it said sign up on line 26 was undefined bc it was Not imported in the file
 //create your first component
@@ -48,6 +49,7 @@ const Layout = () => {
               element={<Search />}
               path="/auth/searchingthebookclub/home"
             />
+            <Route element={<Counter />} path="/starttheexclusivereads" />
             <Route element={<Favorites />} path="/thebookclubfavorites" />
             <Route element={<TheBookClub />} path="/thebookclubhome" />
 

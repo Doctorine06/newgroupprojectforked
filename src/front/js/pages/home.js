@@ -5,7 +5,7 @@ import "../../styles/home.css";
 import Login from "./login.js";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-import Home from "./component/home.jsx";
+import Casa from "../component/casa.jsx";
 export const Home = () => {
   const { store, actions } = useContext(Context);
   let navigate = useNavigate();

@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import { Link } from "react-router-dom";
 import "../../styles/home.css";
+import Home from "./component/home.jsx";
 const Search = () => {
   const { store, actions } = useContext(Context);
   const [bookTitle, setBookTitle] = useState("");

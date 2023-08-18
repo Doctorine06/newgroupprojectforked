@@ -10,6 +10,15 @@ const Search = () => {
     e.preventDefault();
     actions.search(name, bookTitle);
   };
+  let seconds = 0;
+
+setInterval(()=>{
+    seconds++;
+  ReactDOM.render(
+	<Home sec={seconds} />,
+	document.querySelector('#app')
+);
+})
   return (
     <div>
       <div class="text-center">

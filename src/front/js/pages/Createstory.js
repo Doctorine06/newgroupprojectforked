@@ -46,4 +46,4 @@ const Searchthebookstore= () => {
   );
 };
 
-export default Search;
+export default Searchthebookstore;

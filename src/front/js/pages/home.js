@@ -5,7 +5,7 @@ import "../../styles/home.css";
 import Login from "./login.js";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-
+import Home from "./component/home.jsx";
 export const Home = () => {
   const { store, actions } = useContext(Context);
   let navigate = useNavigate();
@@ -18,6 +18,12 @@ export const Home = () => {
       useNavigate("/thebookclub");
     }
   }, [store.token]);
+  let seconds = 0;
+
+  setInterval(() => {
+    seconds++;
+    ReactDOM.render(<Home sec={seconds} />, document.querySelector("#app1"));
+  });
 
   return (
     <div className="text-center mt-5">
@@ -69,8 +75,17 @@ The note was undated, and without either signature or address.
           />
         </a>
         <p>Tag Open Here</p>
-        <input size="250;"></input>
+        <input size="250;" />
         <hr size="10"></hr>
+        <hr />
+        <iframe
+          width="560"
+          height="202"
+          src="https://www.bandlab.com/embed/?id=d3aaaa1e-881e-ee11-a9bb-000d3a41e8b8"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <div id="app1"></div>
       </div>
     </div>
   );

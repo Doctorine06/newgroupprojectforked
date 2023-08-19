@@ -224,7 +224,7 @@ const TheBookClub = () => {
         <a href="https://archive.org/details/adventuresofsher00doylrich/mode/2up?ref=ol&view=theater">
           <div class="card-header">Featured</div>
         </a>
-        {/* 
+
         <iframe
           width="560"
           height="315"
@@ -233,36 +233,16 @@ const TheBookClub = () => {
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
-        ></iframe> */}
+        ></iframe>
         <Link to="">
-          <iframe
-            width="100%"
-            height="450"
-            scrolling="no"
-            frameborder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1606321978&color=%23b34044&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-          ></iframe>
-          <div>
-            <a
-              href="https://soundcloud.com/steven-jeffery-580805407"
-              title="Itsdjkc"
-              target="_blank"
-              // style="color: #cccccc; text-decoration: none;"
-            >
-              Itsdjkc
-            </a>{" "}
-            ·{" "}
-            <a
-              href="https://soundcloud.com/steven-jeffery-580805407/sets/radio-playlist"
-              title="Radio Playlist"
-              target="_blank"
-              // style="color: #cccccc; text-decoration: none;"
-            >
-              Radio Playlist
-            </a>
-          </div>
-          <button type="submit">Terminal Challenge</button>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal1"
+          >
+            Terminal Challenge
+          </button>
           <div>
             <Link to="/searchthebookclub">
               <form>
@@ -287,14 +267,54 @@ const TheBookClub = () => {
               With supporting text below as a natural lead-in to additional
               content.
             </p>
-            {/* <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/pxj20DQee98"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe> */}
+            <div
+              class="modal fade"
+              id="exampleModal1"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel1"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel1">
+                      Links
+                    </h1>
+                    <a href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1606321978&color=%23b34044&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
+                      <iframe
+                        width="67%"
+                        height="415"
+                        scrolling="no"
+                        frameborder="no"
+                        allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1606321978&color=%23b34044&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                      ></iframe>
+                    </a>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <hr />
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card-footer text-body-secondary">2 days ago</div>

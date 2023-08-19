@@ -37,6 +37,10 @@
 .btn {
   color: red;
 }
+.btn2 {
+  background-color: blue;
+  color: red;
+}
 .pad {
   margin-left: 300px;
 }

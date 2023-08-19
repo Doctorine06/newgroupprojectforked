@@ -114,17 +114,22 @@ const TheBookClub = () => {
           <h1>Peter Piper</h1>
           <b>Published by:</b>
           <span>Steven Itsdjkc Ferguson</span>
-          <iframe
-            width="560"
-            height="294"
-            src="https://www.bandlab.com/embed/shout/?id=c9732925-c33e-ee11-b8f0-000d3a41ec20"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
           <Link to="/Discoveryourword/book">Look It UP</Link>
-          <a href="https://www.bandlab.com/thinkoutloud_djkc/albums/21d80231-bc3e-ee11-b8f0-00224844c719">
-            <button>Become Famous</button>
-          </a>
+          <hr />
+          <div>
+            <a href="https://www.bandlab.com/thinkoutloud_djkc/albums/21d80231-bc3e-ee11-b8f0-00224844c719">
+              <div className="btn">
+                <button className="btn2">Become Famous Button</button>
+              </div>
+              <iframe
+                width="560"
+                height="294"
+                src="https://www.bandlab.com/embed/shout/?id=c9732925-c33e-ee11-b8f0-000d3a41ec20"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </a>
+          </div>
           <hr />
           <div className="Watson">
             There’s a dangerous thing deep inside of me, a being that enjoys the

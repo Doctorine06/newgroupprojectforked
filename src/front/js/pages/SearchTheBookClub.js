@@ -92,7 +92,7 @@ const Inquistivo = () => {
             </a>
           </li>
           <br></br>
-          hay <span className="p">página 4</span> en este caso,
+          hay <span className="p">página 4{" Link tag"}</span> en este caso,
           <li>
             <hr />
 

@@ -184,8 +184,8 @@ const TheBookClub = () => {
           lifestyle. I’ve been teaching at this academy for ten years, but don’t
           let this old age fool you.” His words were kind but firm. He was a
           tall gentleman standing as tall as the door frame and hair of grey. He
-          wore glasses, and under his robe stood a frail body. He was the
-          noblest of noblemen <span id="watson">"edit"{""}</span>
+          wore glasses and under his robe stood a frail body. He was the noblest
+          of noblemen <span id="watson">"edit"{""}</span>
           in all the lands. His behavior and his position in life had taught him
           the ins and outs. “First order of business, Pop Quiz. You may begin as
           soon as you get your quiz.” Everyone sighed.{" "}
@@ -194,7 +194,7 @@ const TheBookClub = () => {
             yourself.
           </span>{" "}
           I was first followed by a kid from the lower circle, “Hi I’m David.”
-          His smile was timid and forced and he seemed scared, next was the girl
+          His smile was timid and forced, and he seemed scared. Next was the girl
           from earlier. She spoke with confidence, and grace. “I’m Grace
           Lexington of the Lexington Meadows, my father is famous for colonizing
           the Goondeirs; the Goondeirs were cave people that had the ability to

@@ -194,10 +194,10 @@ const TheBookClub = () => {
             yourself.
           </span>{" "}
           I was first followed by a kid from the lower circle, “Hi I’m David.”
-          His smile was timid and forced, and he seemed scared. Next was the girl
-          from earlier. She spoke with confidence, and grace. “I’m Grace
-          Lexington of the Lexington Meadows, my father is famous for colonizing
-          the Goondeirs; the Goondeirs were cave people that had the ability to
+          His smile was timid and forced, and he seemed scared. Next was the
+          girl from earlier. She spoke with confidence and grace. “I’m Grace
+          Lexington of the Lexington Meadows. My father is famous for colonizing
+          the Goondeirs"; the Goondeirs were cave people that had the ability to
           turn your fantasy into a reality. Tiny but dangerous, they were almost
           like fairies, their ears of point, teeth flawless and it explains why
           she was perfect. “Mr. Prescott would you care to read question

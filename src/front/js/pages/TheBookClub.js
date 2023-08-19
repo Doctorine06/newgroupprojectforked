@@ -122,7 +122,9 @@ const TheBookClub = () => {
             allowfullscreen
           ></iframe>
           <Link to="/Discoveryourword/book">Look It UP</Link>
-          <button>Become Famous</button>
+          <a href="https://www.bandlab.com/thinkoutloud_djkc/albums/21d80231-bc3e-ee11-b8f0-00224844c719">
+            <button>Become Famous</button>
+          </a>
           <hr />
           <div className="Watson">
             There’s a dangerous thing deep inside of me, a being that enjoys the

@@ -130,6 +130,13 @@ export const Home = () => {
                       className="collapse navbar-collapse"
                       id="navbarSupportedContent"
                     >
+                      <div>
+                        <span className="sherlock">SoundCloud.com</span>
+                        <Link to="/starttheexclusivereads">
+                          <button type="submit">Submit</button>
+                        </Link>
+                      </div>
+
                       <li className="nav-item">
                         <Link to="/">
                           <span className="nav-link active" aria-current="page">

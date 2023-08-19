@@ -50,7 +50,9 @@ const Inquistivo = () => {
         <button ocClick={(e) => handleClick(e)}>Ingles</button>
       </Link>
       <hr></hr>
+      <h1>Hola Mundo</h1>
       <p className="sherlock">
+        <span>Hola Veijo</span>
         “Ves, pero no observas. La distinción es clara. Por ejemplo, has visto
         con frecuencia los escalones que suben desde el vestíbulo hasta esta
         habitación. " Frecuentemente." "¿Con qué frecuencia?" "Bueno, algunos
@@ -69,6 +71,15 @@ const Inquistivo = () => {
         confiar con seguridad asuntos que son de una importancia que
         difícilmente puede exagerarse.
       </p>
+      <div>
+        <iframe
+          width="560"
+          height="280"
+          src="https://www.bandlab.com/embed/shout/?id=b94e583cbb4a4481aba01a4a757b82b8_20034b40eb3aee11b8f0000d3a41ec20"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
       <br></br>
       hay <span className="p">página 4</span> en este caso,
       <span className="watson">Watson</span> , si no hay nada más. Creo que será

@@ -43,13 +43,7 @@ export const Home = () => {
       <br />
 
       <div>
-        <iframe
-          width="560"
-          height="202"
-          src="https://www.bandlab.com/embed/?id=7acb9a9e-d23e-ee11-b8f0-000d3a41ec20"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
+      <iframe width="560" height="202" src="https://www.bandlab.com/embed/?id=719a7c8e-d33e-ee11-b8f0-000d3a41ec20" frameborder="0" allowfullscreen></iframe>
         <hr />
         <Link to="/starttheexclusivereads">Counter.js</Link>
       </div>

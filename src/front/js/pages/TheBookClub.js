@@ -12,26 +12,39 @@ const TheBookClub = () => {
   };
   return (
     <div>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal2"
+      >
+        The Book Club Exclusive
+      </button>
       <nav className="navbar navbar-light bg-light">
+        <Link to="/searchthebookclub">Search.The.Book.Club</Link>
         <div className="container">
           <Link to="/publishmystory/auth">
             <span className="navbar-brand mb-0 h1">"Home"</span>
           </Link>
+          <input
+            type="text"
+            placeholder="name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          ></input>
 
           <Link to="/Discoveryourword/book">
             <span className="navbar-brand mb-0 h1">"Look It Up"</span>
           </Link>
+          <input
+            type="text"
+            placeholder="book"
+            value={bookTitle}
+            onChange={(e) => setBookTitle(e.target.value)}
+          ></input>
           <div className="ml-auto">
-            <Link to="/searchthebookclub">
-              <button ocClick={(e) => handleClick(e)}>
-                The Book Club Exclusive
-              </button>
-            </Link>
-            <span className="Watson2">
-              Reloj on each page starting November 1st!
-            </span>
+            <span id="Watson">Reloj on each page starting November 1st!</span>
             {" Novembre "}
-            <input placeholder="counter" size="100px;"></input>
           </div>
         </div>
       </nav>
@@ -90,24 +103,57 @@ const TheBookClub = () => {
           </div>
         </div>
       </nav>
-      <input
-        type="text"
-        placeholder="name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      ></input>
-      <Link to="/auth/search/thebookclub/home">
-        <button ocClick={(e) => handleClick(e)}>The Book Club Exclusive</button>
-      </Link>
-      <input
-        type="text"
-        placeholder="book"
-        value={bookTitle}
-        onChange={(e) => setBookTitle(e.target.value)}
-      ></input>
-      <Link to="/auth/searcthebook">
-        <button ocClick={(e) => handleClick(e)}>Search</button>
-      </Link>
+
+      <Link to="/auth/search/thebookclub/home">Open</Link>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal2"
+      >
+        The Book Club Exclusive
+      </button>
+      <div
+        class="modal fade"
+        id="exampleModal2"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel2"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel2">
+                Modal title
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <Link to="/auth/searcthebook">
+                <button ocClick={(e) => handleClick(e)}>Search</button>
+              </Link>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div>
         <p>
           <hr />
@@ -121,13 +167,6 @@ const TheBookClub = () => {
               <div className="btn">
                 <button className="btn2">Become Famous Button</button>
               </div>
-              <iframe
-                width="560"
-                height="294"
-                src="https://www.bandlab.com/embed/shout/?id=c9732925-c33e-ee11-b8f0-000d3a41ec20"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
             </a>
           </div>
           <hr />
@@ -209,31 +248,12 @@ const TheBookClub = () => {
           like fairies, their ears of point, teeth flawless and it explains why
           she was perfect. “Mr. Prescott would you care to read question
         </p>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/i6yFRXUDC-w"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
       </div>
       <div class="card text-center">
         <a href="https://archive.org/details/adventuresofsher00doylrich/mode/2up?ref=ol&view=theater">
           <div class="card-header">Featured</div>
         </a>
 
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/0-Hj_bi9Qto"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
         <Link to="">
           <button
             type="button"
@@ -298,6 +318,13 @@ const TheBookClub = () => {
                     ></button>
                   </div>
                   <div class="modal-body">
+                    <iframe
+                      width="445"
+                      height="254"
+                      src="https://www.bandlab.com/embed/shout/?id=c9732925-c33e-ee11-b8f0-000d3a41ec20"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
                     <hr />
                   </div>
                   <div class="modal-footer">

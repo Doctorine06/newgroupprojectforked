@@ -94,7 +94,9 @@ const Inquistivo = () => {
         frameborder="0"
         allowfullscreen
       ></iframe>
-      <Link to="/searchthebook">Pagina4enLibrodel</Link>
+      <a href="https://www.bandlab.com/post/b94e583cbb4a4481aba01a4a757b82b8_dde9d03e5d2dee11a9bb000d3a41e8b8">
+        Pagina4enLibrodel
+      </a>
       <hr />
       <span className="watson">Watson</span> , si no hay nada más. Creo que será
       mejor que me vaya, Holmes. “Ni un poco, doctor. Quédate donde estás. Estoy

@@ -134,9 +134,12 @@ const TheBookClub = () => {
             in horror. This creature is not of this world, or any else, he is
             your beginning and your end. ABANDON ALL HOPE Let Me Out!!! The
             chants grew louder and louder; his rage grew stronger, bound by the
-            chains of goodwill and faith; he is contained. Fear consumed me. “I
-            promised I would never allow you to control me ever again. I don’t
-            need your help.”
+            chains of goodwill and faith; he is contained."
+            <p className="sherlock">
+              {"Fear consumed me."} <b />
+            </p>
+            “I promised I would never allow you to control me ever again. I
+            don’t need your help.”
           </div>{" "}
         </p>
         <hr></hr>
@@ -170,6 +173,31 @@ const TheBookClub = () => {
           class="rounded mx-auto d-block"
           alt="github"
         ></img>
+        <hr />
+        <h2>Sherlock Holmes More Like Sherlock Gnomes</h2>
+        <p>
+          There she was a goddess. She was magnificent, a sight for the eyes.
+          Her smile was as radiant as the second sun shining brighter than the
+          first one, her voice angelic and full of life. “Who is she?” Ring. The
+          bell sounded and the day began. “Please take a seat, I am Master Paco.
+          In my class you will learn the basic nobleman lifestyle. I’ve been
+          teaching at this academy for ten years, but don’t let this old age
+          fool you.” His words were kind but firm. He was a tall gentleman
+          standing as tall as the door frame, and hair of grey. He wore glasses,
+          and under his robe stood a frail body. He was the noblest of noblemen
+          the lands. His behavior and his position in life had taught him the
+          ins and outs. “First order of business, Pop Quiz. You may begin as
+          soon as you get your quiz.” Everyone sighed. Question 1: Stand up and
+          introduce yourself. Give three facts about yourself. I was first
+          followed by a kid from the lower circle, “Hi I’m David.” His smile was
+          timid and forced and he seemed scared, next was the girl from earlier.
+          She spoke with confidence, and grace. “I’m Grace Lexington of the
+          Lexington Meadows, my father is famous for colonizing the Goondeirs;
+          the Goondeirs were cave people that had the ability to turn your
+          fantasy into a reality. Tiny but dangerous, they were almost like
+          fairies, their ears of point, teeth flawless and it explains why she
+          was perfect. “Mr. Prescott would you care to read question
+        </p>
         <div>
           <iframe
             width="560"

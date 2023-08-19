@@ -178,15 +178,15 @@ const TheBookClub = () => {
         <p>
           There she was a goddess. She was magnificent, a sight for the eyes.
           Her smile was as radiant as the second sun shining brighter than the
-          first one, her voice angelic and full of life. “Who is she?” Ring. The
+          first one, her voice angelic and full of life. “Who is she?” <b>Ring.</b> The
           bell sounded and the day began. “Please take a seat, I am Master Paco.
           In my class you will learn the basic nobleman lifestyle. I’ve been
           teaching at this academy for ten years, but don’t let this old age
           fool you.” His words were kind but firm. He was a tall gentleman
           standing as tall as the door frame, and hair of grey. He wore glasses,
           and under his robe stood a frail body. He was the noblest of noblemen{" "}
-          <span id="watson">eidt{""}</span>
-          "in all "the lands. His behavior and his position in life had taught
+          <span id="watson">"edit"{""}</span>
+          in all the lands. His behavior and his position in life had taught
           him the ins and outs. “First order of business, Pop Quiz. You may
           begin as soon as you get your quiz.” Everyone sighed. Question 1:
           Stand up and introduce yourself. Give three facts about yourself. I

@@ -13,77 +13,68 @@ export const Navbar = () => {
     actions.checkForToken();
   };
   return (
-   <div></div>
+    <div>
+      <Link to="/">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="icon">ES</span>
+        </button>
+      </Link>
+      <h1 className="open">The Landing Page Journey</h1>
+      <hr />
+      <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
+        Jamaica🇯🇲
+      </Link>
+      <span className="close"></span>
+      <iframe
+        width="560"
+        height="294"
+        src="https://www.bandlab.com/embed/shout/?id=c9732925-c33e-ee11-b8f0-000d3a41ec20"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+
+      <span>Use The Spanish Co-Author</span>
+      <div>
+        <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
+          Puerto Rican🇵🇷
+        </Link>
+      </div>
+
+      <br />
+
+      <div>
+        <iframe
+          width="560"
+          height="202"
+          src="https://www.bandlab.com/embed/?id=719a7c8e-d33e-ee11-b8f0-000d3a41ec20"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <Link to="/searchthebookclub">Puerto Rico🇵🇷</Link>
+        <hr />
+        <Link to="/starttheexclusivereads">Counter.js</Link>
+      </div>
+      <hr />
+      <iframe
+        width="100%"
+        height="300"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1578287335&color=%237c82cd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+      ></iframe>
+
+      <hr />
+      <p>Suprise Athemn</p>
+      <Link to="/searchthebookclub">Sherlock Gnomes Meme</Link>
+    </div>
   );
 };
-{
-  <nav className="navbar navbar-light bg-light">
-    <div className="container">
-      <Link to="/searchthebookclub">
-        <span className="navbar-brand mb-0 h1">"Home"</span>
-      </Link>
-      <div className="ml-auto">
-        <Link to="/searchthebook">
-          <button className="btn btn-primary">Search</button>
-        </Link>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              Navbar
-              <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/0-Hj_bi9Qto"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen
-              ></iframe>
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavDarkDropdown"
-              aria-controls="navbarNavDarkDropdown"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <button
-                    class="btn btn-dark dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Discover
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li>
-                      <Link to="/Discoveryourword/book">Buscalo</Link>
-                    </li>
-
-                    <li>
-                      <Link to="/auth/searchingthebookclub/home">
-                        Sherlock Holmes
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/auth/searchingthebookclub/home">
-                        Are you lost?
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </nav>;
-}

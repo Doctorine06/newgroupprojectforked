@@ -51,18 +51,7 @@ export const Jumbotron1 = () => {
               </Link>
             </li>
           </ul>
-          <Link to ="/">
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="icon">ES</span>
-          </button></Link>
+         
         </ul>
       </div>
     </nav>

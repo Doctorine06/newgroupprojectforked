@@ -38,7 +38,7 @@ const Layout = () => {
           <NavbarStretch />
 
           <Jumbotron1 />
-
+          <Navbar />
           <Routes>
             <Route element={<Home />} path="/" />
 

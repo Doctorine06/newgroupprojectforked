@@ -202,8 +202,27 @@ const TheBookClub = () => {
             scrolling="no"
             frameborder="no"
             allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1606321978&color=%23b34044&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1606321978&color=%23b34044&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
           ></iframe>
+          <div>
+            <a
+              href="https://soundcloud.com/steven-jeffery-580805407"
+              title="Itsdjkc"
+              target="_blank"
+              // style="color: #cccccc; text-decoration: none;"
+            >
+              Itsdjkc
+            </a>{" "}
+            ·{" "}
+            <a
+              href="https://soundcloud.com/steven-jeffery-580805407/sets/radio-playlist"
+              title="Radio Playlist"
+              target="_blank"
+              // style="color: #cccccc; text-decoration: none;"
+            >
+              Radio Playlist
+            </a>
+          </div>
           <button type="submit">Terminal Challenge</button>
           <div>
             <a

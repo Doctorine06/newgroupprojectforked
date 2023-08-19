@@ -21,8 +21,49 @@ export const Home = () => {
       <hr />
       <h1 className="open">The Landing Page Journey</h1>
       <hr />
+      <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
+        Jamaica🇯🇲
+      </Link>
       <span className="close"></span>
+      <iframe
+        width="560"
+        height="294"
+        src="https://www.bandlab.com/embed/shout/?id=c9732925-c33e-ee11-b8f0-000d3a41ec20"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
       <Link to="/starttheexclusivereads">Counter.js</Link>
+      <iframe
+        width="100%"
+        height="300"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1578287335&color=%23a2d7e8&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+      ></iframe>
+      <div>
+        {" "}
+        <a
+          href="https://soundcloud.com/steven-jeffery-580805407"
+          title="Itsdjkc"
+          target="_blank"
+          // style="color: #cccccc; text-decoration: none;"
+        >
+          {/* Itsdjkc */}
+        </a>{" "}
+        ·{" "}
+        <a
+          href="https://soundcloud.com/steven-jeffery-580805407/rodrigo-m4a"
+          title="Rodrigo.m4a"
+          target="_blank"
+          // style="color: #cccccc; text-decoration: none;"
+        >
+          {/* Rodrigo.m4a */}
+        </a>
+      </div>
+
+      <hr />
+      <p>Suprise Athemn</p>
 
       <div className="homepage">
         <a href="https://archive.org/details/adventuresofsher00doylrich/mode/2up?ref=ol&view=theater">

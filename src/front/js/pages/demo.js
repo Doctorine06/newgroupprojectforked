@@ -165,7 +165,42 @@ const Demo = () => {
         </button>
       </Link>
       <hr></hr>
+      <iframe
+        width="100%"
+        height="450"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1405513084&color=%23cc5155&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+      ></iframe>
+      <div className="Watson2">
+        {/* <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"> */}
+        <a
+          href="https://soundcloud.com/user-647680600"
+          title="Jeffery"
+          target="_blank"
+          // style="color: #cccccc; text-decoration: none;"
+        >
+          Jeffery
+        </a>{" "}
+        ·{" "}
+        <a
+          href="https://soundcloud.com/user-647680600/mark-of-cain"
+          title="Mark Of Cain"
+          target="_blank"
+          // style="color: #cccccc; text-decoration: none;"
+        >
+          Mark Of Cain
+        </a>
+      </div>
       <p>Tag a layout</p>
+      <iframe
+        width="560"
+        height="294"
+        src="https://www.bandlab.com/embed/shout/?id=c9732925-c33e-ee11-b8f0-000d3a41ec20"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
       <br></br>
 
       <nav className="navbar navbar-light bg-light">

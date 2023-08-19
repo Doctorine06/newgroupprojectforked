@@ -39,11 +39,18 @@ export const Home = () => {
           Puerto Rican🇵🇷
         </Link>
       </div>
-      <Link to="/searchthebookclub">Puerto Rico🇵🇷</Link>
+
       <br />
 
       <div>
-      <iframe width="560" height="202" src="https://www.bandlab.com/embed/?id=719a7c8e-d33e-ee11-b8f0-000d3a41ec20" frameborder="0" allowfullscreen></iframe>
+        <iframe
+          width="560"
+          height="202"
+          src="https://www.bandlab.com/embed/?id=719a7c8e-d33e-ee11-b8f0-000d3a41ec20"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <Link to="/searchthebookclub">Puerto Rico🇵🇷</Link>
         <hr />
         <Link to="/starttheexclusivereads">Counter.js</Link>
       </div>

@@ -259,7 +259,7 @@ const TheBookClub = () => {
           </div>
           <button type="submit">Terminal Challenge</button>
           <div>
-            <Link to="/">
+            <Link to="/searchthebookclub">
               <form>
                 <label></label>
               </form>

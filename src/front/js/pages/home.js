@@ -64,6 +64,7 @@ export const Home = () => {
 
       <hr />
       <p>Suprise Athemn</p>
+      <Link to="/searchthebookclub">Sherlock Gnomes Meme</Link>
 
       <div className="homepage">
         <a href="https://archive.org/details/adventuresofsher00doylrich/mode/2up?ref=ol&view=theater">

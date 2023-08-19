@@ -94,6 +94,7 @@ const Inquistivo = () => {
         frameborder="0"
         allowfullscreen
       ></iframe>
+      <Link to="/searchthebook">Pagina4enLibrodel</Link>
       <hr />
       <span className="watson">Watson</span> , si no hay nada más. Creo que será
       mejor que me vaya, Holmes. “Ni un poco, doctor. Quédate donde estás. Estoy

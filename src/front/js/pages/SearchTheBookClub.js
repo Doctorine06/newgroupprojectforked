@@ -53,6 +53,9 @@ const Inquistivo = () => {
       <h1>Hola Mundo</h1>
       <p className="sherlock">
         <span>Hola Veijo</span>
+        <div>
+          <h6>Muchoas Gracias</h6>
+        </div>
         “Ves, pero no observas. La distinción es clara. Por ejemplo, has visto
         con frecuencia los escalones que suben desde el vestíbulo hasta esta
         habitación. " Frecuentemente." "¿Con qué frecuencia?" "Bueno, algunos
@@ -72,6 +75,7 @@ const Inquistivo = () => {
         difícilmente puede exagerarse.
       </p>
       <div>
+        <h6>Gang Over Louve 50</h6>
         <iframe
           width="560"
           height="280"
@@ -82,6 +86,15 @@ const Inquistivo = () => {
       </div>
       <br></br>
       hay <span className="p">página 4</span> en este caso,
+      <hr />
+      <iframe
+        width="560"
+        height="280"
+        src="https://www.bandlab.com/embed/shout/?id=b94e583cbb4a4481aba01a4a757b82b8_dde9d03e5d2dee11a9bb000d3a41e8b8"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <hr />
       <span className="watson">Watson</span> , si no hay nada más. Creo que será
       mejor que me vaya, Holmes. “Ni un poco, doctor. Quédate donde estás. Estoy
       perdido sin mi Boswell. Y esto promete ser interesante. Sería una pena

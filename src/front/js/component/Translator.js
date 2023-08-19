@@ -58,9 +58,14 @@ export const NavbarStretch = () => {
               ></button>
             </div>
             <div class="modal-body">
-              <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
-                Jamaica🇯🇲
-              </Link>
+              Peter Piper
+              <div>
+                <form>
+                  <input></input>
+                  <input placeholder="Wah Gwaan"></input>
+                  <label></label>
+                </form>
+              </div>
               {!store.token ? (
                 <Link to="/login">
                   <span className="nav-link">Login</span>
@@ -74,9 +79,15 @@ export const NavbarStretch = () => {
               )}{" "}
               <span>Use The Spanish Co-Author</span>
               <div>
-                <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
-                  Puerto Rican🇵🇷
+                <hr />
+                <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
+                  Jamaica🇯🇲
                 </Link>
+                <div>
+                  <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
+                    Puerto Rican🇵🇷
+                  </Link>
+                </div>
               </div>
               <div>
                 <hr></hr>

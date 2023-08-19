@@ -22,6 +22,7 @@ export const Home = () => {
       <h1 className="open">The Landing Page Journey</h1>
       <hr />
       <span className="close"></span>
+      <Link to="/starttheexclusivereads">Counter.js</Link>
 
       <div className="homepage">
         <a href="https://archive.org/details/adventuresofsher00doylrich/mode/2up?ref=ol&view=theater">

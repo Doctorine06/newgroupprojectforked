@@ -32,35 +32,36 @@ export const Home = () => {
         frameborder="0"
         allowfullscreen
       ></iframe>
-      <Link to="/starttheexclusivereads">Counter.js</Link>
+
+      <span>Use The Spanish Co-Author</span>
+      <div>
+        <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
+          Puerto Rican🇵🇷
+        </Link>
+      </div>
+      <Link to="/searchthebookclub">Puerto Rico🇵🇷</Link>
+      <br />
+
+      <div>
+        <iframe
+          width="560"
+          height="202"
+          src="https://www.bandlab.com/embed/?id=7acb9a9e-d23e-ee11-b8f0-000d3a41ec20"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <hr />
+        <Link to="/starttheexclusivereads">Counter.js</Link>
+      </div>
+      <hr />
       <iframe
         width="100%"
         height="300"
         scrolling="no"
         frameborder="no"
         allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1578287335&color=%23a2d7e8&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1578287335&color=%237c82cd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
       ></iframe>
-      <div>
-        {" "}
-        <a
-          href="https://soundcloud.com/steven-jeffery-580805407"
-          title="Itsdjkc"
-          target="_blank"
-          // style="color: #cccccc; text-decoration: none;"
-        >
-          {/* Itsdjkc */}
-        </a>{" "}
-        ·{" "}
-        <a
-          href="https://soundcloud.com/steven-jeffery-580805407/rodrigo-m4a"
-          title="Rodrigo.m4a"
-          target="_blank"
-          // style="color: #cccccc; text-decoration: none;"
-        >
-          {/* Rodrigo.m4a */}
-        </a>
-      </div>
 
       <hr />
       <p>Suprise Athemn</p>

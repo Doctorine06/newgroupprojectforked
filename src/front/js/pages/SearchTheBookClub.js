@@ -75,29 +75,41 @@ const Inquistivo = () => {
         difícilmente puede exagerarse.
       </p>
       <div>
-        <h6>Gang Over Louve 50</h6>
-        <iframe
-          width="560"
-          height="280"
-          src="https://www.bandlab.com/embed/shout/?id=b94e583cbb4a4481aba01a4a757b82b8_20034b40eb3aee11b8f0000d3a41ec20"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
+        <ol>
+          {" "}
+          <li>
+            <h6>Gang Over Louve 50</h6>
+
+            <iframe
+              width="560"
+              height="280"
+              src="https://www.bandlab.com/embed/shout/?id=b94e583cbb4a4481aba01a4a757b82b8_20034b40eb3aee11b8f0000d3a41ec20"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <a href="https://www.bandlab.com/post/b94e583cbb4a4481aba01a4a757b82b8_20034b40eb3aee11b8f0000d3a41ec20">
+              Gang Over Louve 50º Hip.Hop e-money minor skit
+            </a>
+          </li>
+          <br></br>
+          hay <span className="p">página 4</span> en este caso,
+          <li>
+            <hr />
+
+            <iframe
+              width="560"
+              height="280"
+              src="https://www.bandlab.com/embed/shout/?id=b94e583cbb4a4481aba01a4a757b82b8_dde9d03e5d2dee11a9bb000d3a41e8b8"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <a href="https://www.bandlab.com/post/b94e583cbb4a4481aba01a4a757b82b8_dde9d03e5d2dee11a9bb000d3a41e8b8">
+              Pagina4enLibrodel
+            </a>
+            <hr />
+          </li>
+        </ol>
       </div>
-      <br></br>
-      hay <span className="p">página 4</span> en este caso,
-      <hr />
-      <iframe
-        width="560"
-        height="280"
-        src="https://www.bandlab.com/embed/shout/?id=b94e583cbb4a4481aba01a4a757b82b8_dde9d03e5d2dee11a9bb000d3a41e8b8"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
-      <a href="https://www.bandlab.com/post/b94e583cbb4a4481aba01a4a757b82b8_dde9d03e5d2dee11a9bb000d3a41e8b8">
-        Pagina4enLibrodel
-      </a>
-      <hr />
       <span className="watson">Watson</span> , si no hay nada más. Creo que será
       mejor que me vaya, Holmes. “Ni un poco, doctor. Quédate donde estás. Estoy
       perdido sin mi Boswell. Y esto promete ser interesante. Sería una pena

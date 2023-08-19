@@ -39,6 +39,13 @@ export const NavbarStretch = () => {
                 <h1 className="open">The Landing Page Journey</h1>
 
                 <hr />
+                <hr />
+                <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    The Book Club Exclusive
+                  </h1>
+                </Link>
+                <Link to="/starttheexclusivereads">Counter.js</Link>
                 <Link to="/">Home Page</Link>
               </div>
               <hr />
@@ -51,11 +58,6 @@ export const NavbarStretch = () => {
               ></button>
             </div>
             <div class="modal-body">
-              <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
-                  The Book Club Exclusive
-                </h1>
-              </Link>
               <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
                 Jamaica🇯🇲
               </Link>

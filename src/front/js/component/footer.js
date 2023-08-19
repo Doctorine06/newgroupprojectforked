@@ -14,11 +14,6 @@ export const Footer = () => (
         The Book Club Exclusive
       </button>
     </Link>
-    <h1 className="open">The Landing Page Journey</h1>
-    <hr />
-    <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
-      Jamaica🇯🇲
-    </Link>
 
     <div
       class="modal fade"

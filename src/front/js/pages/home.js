@@ -19,16 +19,20 @@ export const Home = () => {
   return (
     <div className="text-center mt-5">
       <hr />
-    
-      <div className="homepage">
-        <a href="https://archive.org/details/adventuresofsher00doylrich/mode/2up?ref=ol&view=theater">
-          <img
-            className="Adjust"
-            src="https://ia802607.us.archive.org/BookReader/BookReaderImages.php?zip=/4/items/adventuresofsher00doylrich/adventuresofsher00doylrich_jp2.zip&file=adventuresofsher00doylrich_jp2/adventuresofsher00doylrich_0001.jp2&id=adventuresofsher00doylrich&scale=4&rotate=0"
-          />
 
+      <div className="homepage">
+        <button>
+          <a href="https://archive.org/details/adventuresofsher00doylrich/mode/2up?ref=ol&view=theater">
+            <img
+              className="Adjust"
+              src="https://ia802607.us.archive.org/BookReader/BookReaderImages.php?zip=/4/items/adventuresofsher00doylrich/adventuresofsher00doylrich_jp2.zip&file=adventuresofsher00doylrich_jp2/adventuresofsher00doylrich_0001.jp2&id=adventuresofsher00doylrich&scale=4&rotate=0"
+            />
+          </a>
+        </button>
+        <Link to="/searchthebookclub">
+          50˚Hip.Hop..the e-money skit
           <p className="lead">The featured book (cover)</p>
-        </a>
+        </Link>
         <hr></hr>
         <iframe
           width="370"

@@ -16,7 +16,6 @@ export const Navbar = () => {
     <div>
       <Link to="/">
         <button>
-          <span className="icon">ES</span>
           <button
             type="button"
             class="btn btn-primary"
@@ -27,6 +26,7 @@ export const Navbar = () => {
           </button>
         </button>
       </Link>
+      <hr />
       <div class="modal" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -46,13 +46,7 @@ export const Navbar = () => {
                 Jamaica🇯🇲
               </Link>
               <span className="close"></span>
-              <iframe
-                width="560"
-                height="294"
-                src="https://www.bandlab.com/embed/shout/?id=c9732925-c33e-ee11-b8f0-000d3a41ec20"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
+              
 
               <span>Use The Spanish Co-Author</span>
               <div>
@@ -76,14 +70,7 @@ export const Navbar = () => {
                 <Link to="/starttheexclusivereads">Counter.js</Link>
               </div>
               <hr />
-              <iframe
-                width="100%"
-                height="300"
-                scrolling="no"
-                frameborder="no"
-                allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1578287335&color=%237c82cd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-              ></iframe>
+            
 
               <hr />
               <p>Suprise Athemn</p>

@@ -35,11 +35,14 @@ export const NavbarStretch = () => {
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
-                  The Book Club Exclusive
-                </h1>
-              </Link>
+              <div>
+                <h1 className="open">The Landing Page Journey</h1>
+
+                <hr />
+                <Link to="/">Home Page</Link>
+              </div>
+              <hr />
+
               <button
                 type="button"
                 class="btn-close"
@@ -48,6 +51,14 @@ export const NavbarStretch = () => {
               ></button>
             </div>
             <div class="modal-body">
+              <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  The Book Club Exclusive
+                </h1>
+              </Link>
+              <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
+                Jamaica🇯🇲
+              </Link>
               {!store.token ? (
                 <Link to="/login">
                   <span className="nav-link">Login</span>
@@ -59,6 +70,12 @@ export const NavbarStretch = () => {
                   </span>
                 </Link>
               )}{" "}
+              <span>Use The Spanish Co-Author</span>
+              <div>
+                <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
+                  Puerto Rican🇵🇷
+                </Link>
+              </div>
               <div>
                 <hr></hr>
                 <div>

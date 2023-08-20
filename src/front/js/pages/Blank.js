@@ -32,9 +32,10 @@ const Blank = () => {
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
+              <Link to="/">
               <button>
                 <img src="https://i.imgur.com/WAJRIUY.jpeg" id="photoimport" />
-              </button>
+              </button></Link>
               <h1 class="modal-title fs-5" id="ChiKing">
                 ProfileImport
               </h1>

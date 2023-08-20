@@ -129,7 +129,7 @@
   border: #101010;
 }
 
-.bigCounter div {
+.bigNav div {
   display: inline-block;
   font-size: 60px;
   line-height: 60px;
@@ -151,6 +151,17 @@
 }
 .button {
   background-color: blueviolet;
+}
+.openbook {
+  margin: right 25px;
+  color: red;
+  background-color: beige;
+}
+#open {
+  height: 200px;
+  font-size: 70px;
+  color: rgb(83, 205, 77);
+  background-color: burlywood;
 }
 
 .open {

@@ -17,7 +17,11 @@ export const Home = () => {
     }
   }, [store.token]);
   return (
+    
     <div className="text-center mt-5">
+      <button>
+        <h1 id="open">The Landing Page Journey</h1>
+      </button>
       <hr />
 
       <div className="homepage">

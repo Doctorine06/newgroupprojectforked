@@ -40,13 +40,12 @@ export const Navbar = () => {
               ></button>
             </div>
             <div class="modal-body">
-              <h1 className="open">The Landing Page Journey</h1>
+              <h1 className="openbook">The Landing Page Journey</h1>
               <hr />
               <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
                 Jamaica🇯🇲
               </Link>
               <span className="close"></span>
-              
 
               <span>Use The Spanish Co-Author</span>
               <div>
@@ -70,9 +69,7 @@ export const Navbar = () => {
                 <Link to="/starttheexclusivereads">Counter.js</Link>
               </div>
               <hr />
-            
 
-              <hr />
               <p>Suprise Athemn</p>
               <Link to="/searchthebookclub">Sherlock Gnomes Meme</Link>
             </div>

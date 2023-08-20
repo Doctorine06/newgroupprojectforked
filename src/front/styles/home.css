@@ -152,10 +152,16 @@
 .button {
   background-color: blueviolet;
 }
+.modal {
+  background-color: rgb(238, 242, 243);
+}
 .openbook {
   margin: right 25px;
   color: red;
   background-color: beige;
+}
+#coloringbook {
+  background-color: rgb(185, 175, 43);
 }
 #open {
   height: 200px;

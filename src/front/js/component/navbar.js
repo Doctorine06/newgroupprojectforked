@@ -13,7 +13,9 @@ export const Navbar = () => {
     actions.checkForToken();
   };
   return (
-    <div>
+    <div id="coloringbook">
+      <p>Suprise Athemn</p>
+
       <Link to="/">
         <button>
           <button
@@ -26,8 +28,11 @@ export const Navbar = () => {
           </button>
         </button>
       </Link>
+      <div>
+        <Link to="/searchthebookclub">Sherlock Gnomes Meme</Link>
+      </div>
       <hr />
-      <div class="modal" tabindex="-1">
+      <div className="modal" tabindex="-1">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">

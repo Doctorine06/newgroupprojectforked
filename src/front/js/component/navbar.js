@@ -15,6 +15,9 @@ export const Navbar = () => {
   return (
     <div id="coloringbook">
       <p>Suprise Athemn</p>
+      <div id="coloringbook">
+        <div>Use The Spanish Co-Author</div>
+      </div>
 
       <Link to="/">
         <button>
@@ -52,7 +55,6 @@ export const Navbar = () => {
               </Link>
               <span className="close"></span>
 
-              <span>Use The Spanish Co-Author</span>
               <div>
                 <Link to="/auth/buscandoclubllibro/vide/auth/search/thebookclub/home">
                   Puerto Rican🇵🇷
@@ -62,21 +64,20 @@ export const Navbar = () => {
               <br />
 
               <div>
-                <iframe
-                  width="560"
-                  height="202"
-                  src="https://www.bandlab.com/embed/?id=719a7c8e-d33e-ee11-b8f0-000d3a41ec20"
-                  frameborder="0"
-                  allowfullscreen
-                ></iframe>
                 <Link to="/searchthebookclub">Puerto Rico🇵🇷</Link>
-                <hr />
+                <div>
+                  <hr />
+                  <iframe
+                    width="560"
+                    height="202"
+                    src="https://www.bandlab.com/embed/?id=719a7c8e-d33e-ee11-b8f0-000d3a41ec20"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
                 <Link to="/starttheexclusivereads">Counter.js</Link>
               </div>
               <hr />
-
-              <p>Suprise Athemn</p>
-              <Link to="/searchthebookclub">Sherlock Gnomes Meme</Link>
             </div>
             <div class="modal-footer">
               <button

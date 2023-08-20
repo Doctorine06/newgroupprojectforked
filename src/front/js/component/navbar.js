@@ -48,7 +48,7 @@ export const Navbar = () => {
               ></button>
             </div>
             <div class="modal-body">
-              <h1 className="openbook">The Landing Page Journey</h1>
+            
               <hr />
               <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
                 Jamaica🇯🇲

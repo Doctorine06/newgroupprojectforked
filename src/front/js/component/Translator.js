@@ -59,13 +59,32 @@ export const NavbarStretch = () => {
             </div>
             <div class="modal-body">
               Peter Piper
+              <a
+                href="https://soundcloud.com/steven-ferguson-646131006"
+                title="Steven Ferguson"
+                target="_blank"
+              >
+                href="https://soundcloud.com/steven-ferguson-646131006/friends/s-0KS3sFSbO7R"
+                Friends
+              </a>
               <div>
                 <form>
                   <input></input>
                   <input placeholder="Wah Gwaan"></input>
-                  <label></label>
+                  <button type="submit">Submit</button>
                 </form>
               </div>
+              <button>
+                <iframe
+                  width="45%"
+                  height="58"
+                  scrolling="no"
+                  frameborder="no"
+                  allow="autoplay"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1597147815%3Fsecret_token%3Ds-0KS3sFSbO7R&color=%2300cc11&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                ></iframe>
+              </button>
+              <label></label>
               {!store.token ? (
                 <Link to="/login">
                   <span className="nav-link">Login</span>
@@ -78,6 +97,7 @@ export const NavbarStretch = () => {
                 </Link>
               )}{" "}
               <span>Use The Spanish Co-Author</span>
+              <Link to="/searchthebook">The Book Club #search</Link>
               <div>
                 <hr />
                 <Link to="/auth/searchingthebookclub/home/auth/search/thebookclub/home">
@@ -95,10 +115,36 @@ export const NavbarStretch = () => {
                   <Link to="/auth/search/thebookclub/home">
                     <button className="watson">Titulo</button>
                   </Link>
-
+                </div>
+                <div>
+                  <iframe
+                    width="100%"
+                    height="166"
+                    scrolling="no"
+                    frameborder="no"
+                    allow="autoplay"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1597147815%3Fsecret_token%3Ds-0KS3sFSbO7R&color=%2300cc11&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                  ></iframe>
+                  <button id="watson">
+                    <a
+                      href="https://soundcloud.com/steven-ferguson-646131006"
+                      title="Steven Ferguson"
+                      target="_blank"
+                    >
+                      Steven Ferguson
+                    </a>
+                  </button>
                   <Link to="/searchthebook">
                     <button className="sherlock" type="button">
                       Title
+                      <a
+                        href="https://soundcloud.com/steven-ferguson-646131006/friends/s-0KS3sFSbO7R"
+                        title="Friends"
+                        target="_blank"
+                        // style="color: #cccccc; text-decoration: none;"
+                      >
+                        Friends
+                      </a>
                     </button>
                   </Link>
                 </div>

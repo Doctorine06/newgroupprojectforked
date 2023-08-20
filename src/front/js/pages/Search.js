@@ -75,7 +75,9 @@ const Search = () => {
           </li>
           Here you have to search for the site words listed in the exclusive
           book of the month.
-          <li className="sherlock">Or Create Your Own Adventure</li>
+          <Link to="/searchthebook">
+            <li className="sherlock">Or Create Your Own Adventure</li>
+          </Link>
         </ol>
         Each Sherlock Holmes En·thu·si·ast is invited "hmmmm, ... ... It's
         included to find a ingles definition "<br></br>

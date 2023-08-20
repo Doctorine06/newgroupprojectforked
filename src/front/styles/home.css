@@ -44,6 +44,10 @@
 .pad {
   margin-left: 300px;
 }
+#photoimport {
+  height: 55px;
+  width: 55px;
+}
 .margin.left {
   margin-left: 40px;
   color: orange;

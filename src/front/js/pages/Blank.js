@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import { Link } from "react-router-dom";
 import "../../styles/home.css";
+import "../../styles/photos.css";
 const Blank = () => {
   const { store, actions } = useContext(Context);
   const [bookTitle, setBookTitle] = useState("");
@@ -12,15 +13,54 @@ const Blank = () => {
   };
   return (
     <div>
-      <div className="sherlock">Featured</div>
-      <iframe
-                width="100%"
-                height="300"
-                scrolling="no"
-                frameborder="no"
-                allow="autoplay"
-                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1578287335&color=%237c82cd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
-              ></iframe>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#ChiKing"
+      >
+        King Photo :Profile Photo
+      </button>
+
+      <div
+        class="modal fade"
+        id="ChiKing"
+        tabindex="-1"
+        aria-labelledby="ChiKing"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button>
+                <img src="https://i.imgur.com/WAJRIUY.jpeg" id="photoimport" />
+              </button>
+              <h1 class="modal-title fs-5" id="ChiKing">
+                ProfileImport
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div>
         6 AVENTURAS DE SHERLOCK HOLMES debe ser aburrido, de hecho, si no lo
         hago declararlo miembro activo de la profesión médica”. I no pudo evitar
@@ -44,9 +84,30 @@ const Blank = () => {
           <Link to="/Discoveryourword/book">
             <span className="navbar-brand mb-0 h1">"Look It Up"</span>
           </Link>
-          <div className="ml-auto"></div>
+          <div className="ml-auto">
+            Margin-left Margin-top Margin-bottom Header Margin right 60 px over
+            the 60th quartile
+          </div>
         </div>
-
+        <hr />
+        <div>Sherlock Holmes:</div>
+        <div>
+          <a href="https://archive.org/details/adventuresofsher00doylrich/mode/2up?ref=ol&view=theater">
+            <img
+              className="Adjust"
+              src="https://ia802607.us.archive.org/BookReader/BookReaderImages.php?zip=/4/items/adventuresofsher00doylrich/adventuresofsher00doylrich_jp2.zip&file=adventuresofsher00doylrich_jp2/adventuresofsher00doylrich_0001.jp2&id=adventuresofsher00doylrich&scale=4&rotate=0"
+            />
+          </a>
+          <div className="sherlock">Featured</div>
+          <iframe
+            width="100%"
+            height="300"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1578287335&color=%237c82cd&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+          ></iframe>
+        </div>
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             Navbar.home.theexclusive
@@ -103,9 +164,16 @@ const Blank = () => {
 
       <br></br>
       <div className="colores">
+        <div className="ml-auto">
+          Margin-left Margin-top Margin-bottom Header Margin right 60 px over
+          the 60th quartile
+          <hr />
+        </div>
         El cuento de dos reyes de Steven Ferguson
+        <hr />
         <div>
-          <h1>El cuento de dos reyes</h1>
+          <h1 id="watson">El cuento de dos reyes</h1>
+          <div className="azul">Featured</div>
           <p>
             Hay algo peligroso en lo más profundo de mí, un ser que disfruta del
             dolor de los demás. Mirando dentro de tu alma, buscando debilidad;
@@ -130,31 +198,41 @@ const Blank = () => {
             Zakar: "El sol sale a su favor, Príncipe Zakar, ¿está listo para
             enfrentarse a su padre?" Mi padre no debería preocuparse, Maestro
             Serech, estoy listo. Me inclino mostrando a mi maestro el debido
-            respeto; sin embargo, mi padre, el rey Shamus, gobernante de las
-            tierras del norte, era un gran y poderoso guerrero, y un rey más
-            sabio. Nuestra nación era de las cuatro grandes naciones; al sur de
-            nosotros saludó a la gente de la garra, creyendo que era la garra
-            del Gran Rahnoki para tallar las tierras. Mi padre siempre creyó que
-            este cuento era una tontería, todos lo creímos; este mundo fue
-            sancionado por los Dioses Mayores de Dimorphous. La leyenda dice que
-            su líder se enfrentó solo a los Rahnoki, "la batalla fue tan intensa
-            que hizo que las tierras se levantaran del mar y las nubes hicieran
-            llover montañas sobre esas tierras". Nadie lo sabe con certeza, pero
-            hay historias de que los hijo de Lord Nior, gobernante de los
-            dimorfitas, se ha hecho amigo de los Rahnoki. Suena descabellado.
-            Golpear. Toca "Padre". Había silencio; Toqué de nuevo. Golpes.
-            Golpes. Una vez más, el hombre se encuentra allí.{" "}
+            respeto; sin embargo, mi padre,
+            <br />
+            <hr />
+            <input
+              type="text"
+              placeholder="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            ></input>
+            <div>
+              <form>
+                <label>
+                  <input variable="start"></input>
+                </label>
+              </form>
+            </div>
+            el rey Shamus, gobernante de las tierras del norte, era un gran y
+            poderoso guerrero, y un rey más sabio. Nuestra nación era de las
+            cuatro grandes naciones; al sur de nosotros saludó a la gente de la
+            garra, creyendo que era la garra del Gran Rahnoki para tallar las
+            tierras. Mi padre siempre creyó que este cuento era una tontería,
+            todos lo creímos; este mundo fue sancionado por los Dioses Mayores
+            de Dimorphous. La leyenda dice que su líder se enfrentó solo a los
+            Rahnoki, "la batalla fue tan intensa que hizo que las tierras se
+            levantaran del mar y las nubes hicieran llover montañas sobre esas
+            tierras". Nadie lo sabe con certeza, pero hay historias de que los
+            hijo de Lord Nior, gobernante de los dimorfitas, se ha hecho amigo
+            de los Rahnoki. Suena descabellado. Golpear. Toca "Padre". Había
+            silencio; Toqué de nuevo. Golpes. Golpes. Una vez más, el hombre se
+            encuentra allí.{" "}
           </p>
           <hr></hr>
         </div>
       </div>
-      <div className="rojo">Featured</div>
-      <input
-        type="text"
-        placeholder="name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      ></input>
+
       <Link to="/auth/search/thebookclub/home">
         <button ocClick={(e) => handleClick(e)}>
           Exclusivo del club de lectura
@@ -166,6 +244,7 @@ const Blank = () => {
         value={bookTitle}
         onChange={(e) => setBookTitle(e.target.value)}
       ></input>
+      <div class="azul">Featured</div>
       <Link to="/auth/searcthebook">
         <button ocClick={(e) => handleClick(e)} className="sherlock">
           búsqueda
@@ -215,10 +294,6 @@ const Blank = () => {
           <div class="card-header">Featured</div>
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
-            <p className="sherlock">
-              With supporting text below as a natural lead-in to additional
-              content.
-            </p>
             <iframe
               width="560"
               height="315"
@@ -226,7 +301,9 @@ const Blank = () => {
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
-            ></iframe>
+            >
+              <p>Sherlock Holmes </p>
+            </iframe>
           </div>
           <div className="text-center mt-5">
             <nav className="navbar navbar-light bg-light">
@@ -247,15 +324,6 @@ const Blank = () => {
                 </div>
               </div>
             </nav>
-            <div>Sherlock Holmes:</div>
-            <div>
-              <a href="https://archive.org/details/adventuresofsher00doylrich/mode/2up?ref=ol&view=theater">
-                <img
-                  className="Adjust"
-                  src="https://ia802607.us.archive.org/BookReader/BookReaderImages.php?zip=/4/items/adventuresofsher00doylrich/adventuresofsher00doylrich_jp2.zip&file=adventuresofsher00doylrich_jp2/adventuresofsher00doylrich_0001.jp2&id=adventuresofsher00doylrich&scale=4&rotate=0"
-                />
-              </a>
-            </div>
 
             <br></br>
           </div>

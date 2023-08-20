@@ -57,6 +57,7 @@ const Layout = () => {
               element={<Autherization />}
               path="/auth/search/thebookclub/home"
             />
+            <Route element={<Blank />} path="/searchthebook" />
             <Route element={<LogoutJumbotron />} path="/logout" />
             <Route element={<SearchTheBookClub />} path="/searchthebookclub" />
             {/* <Route element={<LoginComponent />} path="/" /> */}
@@ -72,7 +73,6 @@ const Layout = () => {
             />
             <Route element={<Publish />} path="/publishmystory/auth" />
             <Route element={<Algolia />} path="/auth/searcthebook" />
-            <Route element={<Blank />} path="/searchthebook" />
           </Routes>
 
           <Footer />

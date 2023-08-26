@@ -33,7 +33,7 @@ def create_token():
         return jsonify({"msg": "Email/Password are incorrect"}), 401
 
     # create token
-    expiration = datetime.timedelta(days=3)
+    expiration = datetime.timedelta(days=6)
     access_token = create_access_token(identity= user.id, expires_delta= expiration)
     return jsonify(access_token=access_token), 200
 

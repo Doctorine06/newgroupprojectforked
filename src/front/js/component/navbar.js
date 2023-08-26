@@ -9,7 +9,7 @@ export const Navbar = () => {
   const handleClick = (e) => {
     e.preventDefault();
     actions.logout();
-    navigate("/");
+
     actions.checkForToken();
   };
   return (

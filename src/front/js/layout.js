@@ -5,7 +5,6 @@ import { Home } from "./pages/home";
 import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
-import The_Book_Club_auth from "./pages/The_Book_Club_auth";
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import Register from "./pages/SignUp";
@@ -16,7 +15,7 @@ import Search from "./pages/Search";
 import Algolia from "./pages/Algolia";
 import Autherization from "./pages/Autherization";
 import Publish from "./pages/PublishYours";
-
+import ProfileImport from "./component/ProfileImport";
 //In the console it said sign up on line 26 was undefined bc it was Not imported in the file
 //create your first component
 const Layout = () => {
@@ -30,21 +29,29 @@ const Layout = () => {
         <ScrollToTop>
           <Navbar />
           <Routes>
+            <Route element={<Home />} path="/" />
             <Route element={<Home />} path="/thebookclubfavorites" />
+            <Route element={<ProfileImport />} path="/publishmystory" />
             <Route element={<Login />} path="/login" />
             <Route element={<Register />} path="/createUser" />
-            <Route element={<Createstory />} path="/Createstory" />
+            <Route
+              element={<Createstory />}
+              path="/Createstory/thebookclubfavorites/thebookclub"
+            />
             <Route element={<Search />} path="/auth/searchthebookclub/home" />
             <Route element={<Single />} path="/single/:theid" />
 
-            <Route element={<Autherization />} path="/auth/thebookclub" />
+            <Route
+              element={<Autherization />}
+              path="/auth/search/thebookclub/home"
+            />
             <Route
               element={<SearchTheBookClub />}
               path="/searchthebookclub/home"
             />
             <Route element={<h1>Not found!</h1>} />
             <Route element={<Publish />} path="/publishmystory/auth" />
-            <Route element={<Algolia />} path="/searcthebook" />
+            <Route element={<Algolia />} path="/auth/searcthebook" />
           </Routes>
           <Footer />
         </ScrollToTop>

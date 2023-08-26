@@ -1,8 +1,8 @@
 import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import { Link } from "react-router-dom";
-
-export const Createstory = () => {
+import "../../styles/home.css";
+const Searchthebookstore= () => {
   const { store, actions } = useContext(Context);
 
   return (
@@ -39,11 +39,11 @@ export const Createstory = () => {
       </ul>
       <br />
       <input maxLength={10}></input>
-      <Link to="/home">
+      <Link to="/">
         <button className="btn btn-primary">Save Draft</button>
       </Link>
     </div>
   );
 };
 
-export default Createstory;
+export default Searchthebookstore;

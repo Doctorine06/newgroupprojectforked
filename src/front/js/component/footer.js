@@ -6,8 +6,13 @@ export const Footer = () => (
     <nav aria-label="Page navigation example">
       <ul className="pagination">
         <li className="page-item">
+          <Link to="/thebookclubfavorites">
+            <span className="page-link">Home</span>
+          </Link>
+        </li>
+        <li className="page-item">
           <Link to="/searchthebookclub/home">
-            <span className="page-link" href="#">
+            <span className="page-link" >
               Previous
             </span>
           </Link>
@@ -15,14 +20,17 @@ export const Footer = () => (
         <li className="page-item">
           <a
             className="page-link"
-            href="https://archive.org/details/adventuresofsher00doylrich/page/272/mode/2up?ref=ol&view=theater"
+            href="https://dashboard.algolia.com/apps/7VW33R3U8I/dashboard"
           >
             The BookClub's Monthly Pick
           </a>
         </li>
         <li className="page-item">
           <Link to="/auth/searchthebookclub">
-            <span className="page-link" href="#">
+            <span
+              className="page-link"
+              href="https://archive.org/details/adventuresofsher00doylrich/page/4/mode/2up?ref=ol&view=theater"
+            >
               1
             </span>
           </Link>

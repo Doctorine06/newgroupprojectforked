@@ -5,7 +5,7 @@ import "../../styles/home.css";
 import Login from "./login.js";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
-
+import Casa from "../component/casa.jsx";
 export const Home = () => {
   const { store, actions } = useContext(Context);
   let navigate = useNavigate();
@@ -15,9 +15,15 @@ export const Home = () => {
       store.token !== "" &&
       store.token !== undefined
     ) {
-      navigate("/thebookclub");
+      useNavigate("/thebookclub");
     }
   }, [store.token]);
+  let seconds = 0;
+
+  setInterval(() => {
+    seconds++;
+    ReactDOM.render(<Home sec={seconds} />, document.querySelector("#app1"));
+  });
 
   return (
     <div className="text-center mt-5">
@@ -57,7 +63,7 @@ The note was undated, and without either signature or address.
 “There will call upon you to-night, at a quarter to eight o'clock,” it said, “‘a gentleman who desires to consult you upon a matter of the very deepest moment. Your recent services to one of the royal houses of Europe have shown that you are one who may safely be trusted with matters which are of an importance which can hardly be exaggerated. This account of you we have from all quarters received. Be in
 
 
-        "
+"
           size="125"
           cols="25"
           rows="25"
@@ -68,6 +74,18 @@ The note was undated, and without either signature or address.
             src="https://ia802607.us.archive.org/BookReader/BookReaderImages.php?zip=/4/items/adventuresofsher00doylrich/adventuresofsher00doylrich_jp2.zip&file=adventuresofsher00doylrich_jp2/adventuresofsher00doylrich_0001.jp2&id=adventuresofsher00doylrich&scale=4&rotate=0"
           />
         </a>
+        <p>Tag Open Here</p>
+        <input size="250;" />
+        <hr size="10"></hr>
+        <hr />
+        <iframe
+          width="560"
+          height="202"
+          src="https://www.bandlab.com/embed/?id=d3aaaa1e-881e-ee11-a9bb-000d3a41e8b8"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <div id="app1"></div>
       </div>
     </div>
   );

@@ -14,19 +14,19 @@ const Search = () => {
     <div>
       <nav className="navbar navbar-light bg-light">
         <div className="container">
-          <Link to="/thebookclub">
+          <Link to="/searchthebookclub/home">
             <span className="navbar-brand mb-0 h1">"Home"</span>
           </Link>
 
-          <Link to="/auth/search/thebookclub">
+          <Link to="/Discoveryourword/book">
             <span className="navbar-brand mb-0 h1">"Look It Up"</span>
           </Link>
           <div className="ml-auto">
-            <Link to="/thebookclub">
-              <button onClick={(e) => handleClick(e)}>
+            <Link to="//searcthebook">
+              <span>
                 <input placeholder="Reloj" size="100px;"></input>
-                <button>Search</button>
-              </button>
+              </span>
+              <button ocClick={(e) => handleClick(e)}>Entrar</button>
             </Link>
           </div>
         </div>
@@ -37,18 +37,26 @@ const Search = () => {
         value={name}
         onChange={(e) => setName(e.target.value)}
       ></input>
-      <Link to="auth/searchthebook/home">
-        <button onClick={(e) => handleClick(e)}>The Book Club Exclusive</button>
+      <Link to="/auth/search/thebookclub/home">
+        <button ocClick={(e) => handleClick(e)}>The Book Club Exclusive</button>
       </Link>
-      <Link to="/searchthebook/home">
-        <input
-          type="text"
-          placeholder="book"
-          value={bookTitle}
-          onChange={(e) => setBookTitle(e.target.value)}
-        ></input>
-        <button onClick={(e) => handleClick(e)}>Search</button>
+      <input
+        type="text"
+        placeholder="book"
+        value={bookTitle}
+        onChange={(e) => setBookTitle(e.target.value)}
+      ></input>
+      <Link to="/publishmystory/auth">
+        <button ocClick={(e) => handleClick(e)}>Search</button>
       </Link>
+      <Link to="/">
+        <input placeholder="Reloj" size="100px;"></input>
+        <button ocClick={(e) => handleClick(e)}>Buscandos</button>
+      </Link>
+
+      <div container="flexbox">
+        <img src="https://i.imgur.com/KFp3ilV.jpeg" />
+      </div>
     </div>
   );
 };

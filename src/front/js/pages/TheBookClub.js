@@ -29,6 +29,13 @@ const TheBookClub = () => {
               <button ocClick={(e) => handleClick(e)}>Entrar</button>
             </Link>
           </div>
+          <iframe
+            width="560"
+            height="574"
+            src="https://www.bandlab.com/embed/shout/?id=8452109e-ed3a-ee11-b8f0-000d3a41ec20"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
         </div>
       </nav>
       <input

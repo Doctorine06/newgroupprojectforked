@@ -2,7 +2,8 @@ import React, { useContext, useState } from "react";
 import { Context } from "../store/appContext";
 import { Link } from "react-router-dom";
 import "../../styles/home.css";
-const Inquistivo = () => {
+import { Navbar } from "../component/navbar";
+const Single = () => {
   const { store, actions } = useContext(Context);
   const [bookTitle, setBookTitle] = useState("");
   const [name, setName] = useState("");
@@ -42,7 +43,8 @@ const Inquistivo = () => {
     </div>
   );
 };
-return (
+export const Navbar1 = () => {
+  return;
   <div>
     <h1>Spolighted Books</h1>
     <div className="text-center mt-5">
@@ -83,7 +85,7 @@ return (
         </Link>
       </div>
     </div>
-  </div>
-);
+  </div>;
+};
 
 export default Single;

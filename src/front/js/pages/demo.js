@@ -1,29 +1,37 @@
-// import React, { useState, useEffect, useContext } from "react";
-// import PropTypes from "prop-types";
-// import { Link, useParams } from "react-router-dom";
-// import { Context } from "../store/appContext";
+import React, { useState, useEffect, useContext } from "react";
+import PropTypes from "prop-types";
+import { Link, useParams } from "react-router-dom";
+import { Context } from "../store/appContext";
 
-// export const Single = (props) => {
-//   const { store, actions } = useContext(Context);
-//   const params = useParams();
-//   return (
-//     <div className="jumbotron">
-//       <h1 className="display-4">
-//         This will log you in then display your home page{" /"}
-//         {store.demo[params.theid].title}
-//       </h1>
-//       <img src="https://wallpaperaccess.com/full/8011.jpg" />
-//       <hr className="my-4" />
+export const Single = (props) => {
+  const { store, actions } = useContext(Context);
+  const params = useParams();
+  return (
+    <div className="jumbotron">
+      <h1 className="display-4">
+        This will log you in then display your home page{" /"}
+        {store.demo[params.theid].title}
+      </h1>
+      <img src="https://wallpaperaccess.com/full/8011.jpg" />
+      <iframe
+        width="560"
+        height="280"
+        src="https://www.bandlab.com/embed/shout/?id=af57e5998f49e81180c300155d65202b_cd743f7a3724ee11a9bb000d3a41e8b8"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+      <hr className="my-4" />
+      
 
-//       <Link to="/thebookclub">
-//         <span className="btn btn-primary btn-lg" href="" role="button">
-//           Button
-//         </span>
-//       </Link>
-//     </div>
-//   );
-// };
+      <Link to="/thebookclub">
+        <span className="btn btn-primary btn-lg" href="" role="button">
+          Button
+        </span>
+      </Link>
+    </div>
+  );
+};
 
-// Single.propTypes = {
-//   match: PropTypes.object,
-// };
+Single.propTypes = {
+  match: PropTypes.object,
+};

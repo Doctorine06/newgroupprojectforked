@@ -11,6 +11,7 @@ export default function Clock(props) {
       <div>{Math.floor(props.sec / 100) % 10}</div>
       <div>{Math.floor(props.sec / 10) % 10}</div>
       <div>{Math.floor(props.sec / 1) % 10}</div>
+     
     </div>
   );
 }

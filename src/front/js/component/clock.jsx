@@ -5,6 +5,7 @@ export default function Clock(props) {
     <div className="bigCounter">
       <div className="calendar"></div>
       <i className="far fa-clock"></i>
+      <div>{Math.floor(props.sec / 1000000)% 10}</div>
       <div>{Math.floor(props.sec / 100000) % 10}</div>
       <div>{Math.floor(props.sec / 10000) % 10}</div>
       <div>{Math.floor(props.sec / 1000) % 10}</div>
